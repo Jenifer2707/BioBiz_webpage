@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bring</title>
+    <style>
+        body{
+            background-image: url('background.jpg');
+            height: 100%;
+            width: 100%;
+        }
+        .info{
+            border: 10px groove black;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .outer_most_div{
+            padding-top: 200px;
+            height: 200px;
+            
+        }
+        #date,#time,#h3{
+            font-size: larger;
+        }
+        input{
+            padding-left: 600px;
+            padding-top: 50px;
+        }
+        #cbg{
+            margin-left: 100px;
+            margin-top: 70px;
+        }
+        .para1{
+            height: 180px;
+            width: 600px;
+            font-size: large;
+            line-height: 40px;
+            border-left: 5px solid green;
+            border-bottom: 5px solid green;
+            font-family: cursive;
+            margin-left: 800px;
+            margin-top: -300px;
+        }
+        #h2{
+            border: 2px solid green;
+            height: 55px;
+            padding-top: 20px;
+            margin-left: 750px;
+            margin-right: 50px;
+        }
+        #ul1{
+            font-size: larger;
+            padding-top: 40px;
+            line-height: 40px;
+            margin-left: 70px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #line1{
+            margin-left: 600px;
+            font-size: large;
+            font-weight: bold;
+        }
+        #h4{
+            border: 2px solid green;
+            height: 55px;
+            padding-top: 20px;
+            padding-left: 70px;
+            margin-left: 450px;
+            margin-right: 350px;
+            margin-top: 30px;
+        }
+        #img1{
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+        .div2{
+            text-align: center;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 800px;
+            margin-top: -320px;
+        }
+        #para2{
+            line-height: 40px;
+            font-size: large;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            width: 100%;
+            margin-top: 20px;
+            z-index: 1;
+            background-color: transparent;
+        }
+        .menu_ul{
+            list-style: none;
+        }
+        .menu_ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        .menu_ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        .menu_ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        .menu_ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        .menu_ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        .menu_ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: 30px;
+            position: fixed;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul class="menu_ul">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <div class="outer_most_div">
+        <div class="info">
+            <h1 id="head1" style="text-align: center;">Webinar - CBG from Napier Grass, Paddy Straw</h1>
+            <p id="date" style="text-align: center;">20 Dec 2024</p>
+            <p id="time" style="text-align: center;">9 sessions ( 9:00 AM To 5:00 PM )</p>
+            <h3 id="h3" style="text-align: center;">Valuable for businesses keen on investing in CBG plant</h3>
+        </div>
+    </div>
+    <a href="https://pages.razorpay.com/pl_P63RSVyfpDK6h5/view">
+        <input type="image" src="register.png" alt="button" height="50px" width="200px">
+    </a><br>
+    <img id="cbg" src="cbg.jpg" height="300px" width="500px">
+    <p class="para1">India has big ambitions for CBG; thousands of businesses and entrepreneurs wish to put up CBG plants. The demand for CBG is massive.
+        But feedstock is a challenge - relying on food waste and animal waste cannot scale this business.
+        </p>
+    <h2 id="h2">Enter biomass such as paddy straw, napier grass and agri residues</h2>
+    <ul id="ul1">
+        <li>These are available in plenty and have good supply chains.</li>
+        <li>But all these are lignocellulosic biomass, and thus need to be pre-treated before they can be used in a digester.</li>
+        <li>Hundreds of entrepreneurs have approached the BioBiz division of EAI wanting to know more about CBG from Napier Grass, Miscanthus, Paddy Straw etc.</li>
+        <li>They have lots of questions, many doubts about use of these biomass.</li>
+    </ul>
+    <p id="line1">We hence are putting together a special webinar on:</p>
+    <h2 id="h4">Use of Napier Grass, Paddy Straw, Agri Waste for CBG</h2>
+    <img id="img1" src="indus.webp" height="350px" width="500px">
+    <div class="div2">
+        <h1>20 Dec 2024</h1>
+        <h1>Who will benefit?</h1>
+        <p id="para2">Companies and entrepreneurs keen to invest on a CBG production facility anywhere in India.</p>
+    </div>
+</body>
+</html>

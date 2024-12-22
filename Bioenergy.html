@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioEnergy</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        .container{
+            margin-top: 100px;
+            margin-left: 100px;
+            padding-top: 100px;
+        }
+        #para1{
+            height: 300px;
+            width: 500px;
+            line-height: 40px;
+            font-size: larger;
+            text-align: justify;
+        }
+        #img1{
+            margin-left: 800px;
+            margin-top: -400px;
+        }
+        #para2{
+            height: 300px;
+            width: 800px;
+            font-size: larger;
+            line-height: 40px;
+        }
+        #img2{
+            margin-left: 950px;
+            margin-top: -400px;
+        }
+        #para3{
+            font-size: larger;
+            line-height: 40px;
+            width: 1000px;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            margin-top: -70px;
+            width: 100%;
+            z-index: 1;
+            background-color: transparent;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: 20px;
+            position: fixed;
+            margin-left: 10px;
+            margin-top: -60px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <div class="container">
+        <h1 class="h1">BioEnergy</h1>
+        <p id="para1">The pursuit of sustainable power solutions is increasingly focused on the exploitation of bioenergy derived from organic materials. This strategic shift is essential for reducing our dependence on fossil fuels and fostering a more environmentally friendly energy landscape. By harnessing the potential of biomass, bioenergy contributes significantly to climate change mitigation, enhancing energy security, and bolstering rural economies.</p>
+    </div>
+    <img id="img1" src="energy.jpeg" height="300px" width="500px">
+    <div class="container">
+        <h1>Solution Domain</h1>
+        <p id="para2">Bioenergy manifests itself in diverse solution domains, each addressing a specific energy need in a sustainable manner. Biomass power generation involves the combustion of organic materials to produce electricity. Biofuels, such as ethanol and biomethane, offer an eco-friendly alternative to traditional transportation fuels. Anaerobic digestion converts organic waste into biogas for electricity and heat production. Biomass heating systems provide renewable energy for residential and industrial purposes. These solution domains collectively form a comprehensive portfolio, addressing the multifaceted requirements of a sustainable energy future.</p>
+    </div>
+    <img id="img2" src="energy2.png" height="300px" width="500px">
+    <div class="container">
+        <h1>Latest Trends</h1>
+        <p id="para3">An emerging trend in bioenergy is the utilization of algae for biofuel production within the Biomass-to-Liquid (BTL) framework. Algae-based biofuels represent a revolutionary approach, leveraging algae’s rapid growth and high lipid content to create sustainable liquid fuels. This innovation is particularly beneficial for achieving carbon-neutral transportation, as algae absorb carbon dioxide during growth, contributing to emissions mitigation in the fuel production process.
+
+            The technology of converting algae to biofuels demonstrates efficiency and versatility. Algae cultivation avoids competition with traditional agriculture for land resources, making it a sustainable alternative.<br> Ongoing advancements in cultivation, genetic engineering, and harvesting techniques are enhancing scalability and economic viability. Algae’s adaptability to diverse environments, including wastewater treatment facilities, positions it as a flexible and sustainable feedstock. This trend underscores the bioenergy sector’s commitment to pioneering innovative solutions that promote environmental sustainability and cleaner energy alternatives.</p>
+    </div>
+</body>
+</html>

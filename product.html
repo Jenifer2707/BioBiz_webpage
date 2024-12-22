@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Product</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        .container{
+            margin-top: 100px;
+            margin-left: 100px;
+            padding-top: 100px;
+        }
+        #para1{
+            width: 700px;
+            font-size: large;
+            line-height: 40px;
+        }
+        #img1{
+            margin-left: 900px;
+            margin-top: -400px;
+        }
+        .div1{
+            margin-top: 100px;
+            margin-left: 200px;
+            width: 1000px;
+            font-size: large;
+            line-height: 40px;
+        }
+        #img2{
+            margin-left: 300px;
+        }
+        .ul1{
+            margin-left: 200px;
+            font-size: large;
+            line-height: 40px;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            width: 100%;
+            margin-top: -70px;
+            z-index: 1;
+            background-color: transparent;
+        }
+        .menu_ul{
+            list-style: none;
+        }
+        .menu_ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        .menu_ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        .menu_ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        .menu_ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        .menu_ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        .menu_ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: -60px;
+            position: fixed;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul class="menu_ul">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <div class="container">
+        <h1>Bio-Product</h1>
+        <p id="para1">Embarking on the frontier of sustainable innovation, BioBiz proudly presents a paradigm shift in industry dynamics with our focus on Bio-based High Value-Added Products. Our offering is rooted in the belief that bio-based solutions hold the key to a resilient and eco-friendly future. It can help businesses to thrive while minimizing the impact on the environment.</p>
+    </div>
+    <img id="img1" src="product.png" height="300px" width="400px">
+    <div class="div1">
+        <p>While the environmental advantages of bio-based HVAPs are undeniable, their appeal extends far beyond mere sustainability. These innovative products offer a compelling proposition for businesses across various sectors:</p>
+        <ul>
+            <li><b>Enhanced functionality:</b> Bio-based materials often possess unique properties like biodegradability, lower toxicity, and superior strength, leading to improved product performance and durability.</li>
+            <li><b>Reduced reliance on fossil fuels:</b> Utilizing renewable resources like plant biomass and algae mitigates dependence on finite fossil fuels, securing long-term supply chain resilience and reducing carbon footprint.</li>
+            <li><b>Brand differentiation:</b> Embracing bio-based solutions positions companies as environmentally conscious leaders, fostering brand loyalty and attracting sustainability-focused consumers.</li>
+            <li><b>Market access and growth:</b> The global bio-based HVAP market is projected to reach USD 267.9 billion by 2027, presenting significant growth opportunities for early adopters.</li>
+        </ul>
+    </div>
+    <div class="div1">
+        <h1>Prominent Opportunities</h1>
+        <p>Bio-based high-value-added products represent a spectrum of opportunities across numerous industries. From the development of advanced biomaterials for construction and textiles to the formulation of bio-based chemicals and nutraceuticals, we unlock avenues that promise higher value, enhanced performance, and a reduced environmental burden.</p>
+    </div>
+    <img id="img2" src="diagram.jpg" height="600px" width="800px">
+    <ul class="ul1">
+        <li>Low Value: Represents products that may face challenges in differentiation or have a more commodity-like nature</li>
+        <li>Medium-Low to Medium Value: Represents products that have some market demand but may face competition or have lower uniqueness</li>
+        <li>Medium-High to High Value: Represents products with higher perceived value due to current trends, sustainability, and consumer preferences</li>
+    </ul>
+</body>
+</html>

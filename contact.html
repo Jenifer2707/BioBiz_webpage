@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-image: url('cont_back.avif');
+        }
+        #img1{
+            margin-left: 100px;
+            margin-top: 100px;
+            padding-top: 100px;
+        }
+        #info{
+            margin-left: 800px;
+            margin-top: -620px;
+        }
+        .p1{
+            height: 170px;
+            width: 500px;
+            padding-top: 30px;
+            line-height: 40px;
+            font-size: larger;
+            border: 2px solid black;
+        }
+        form{
+            margin-left: 880px;
+            margin-top: 50px;
+        }
+        input{
+            border-radius: 10px;
+            font-size: 30px;
+        }
+        #form_input{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        #img2{
+            margin-left: 90px;  
+        }
+        #img3{
+            margin-left: 140px;
+        }
+        #img4{
+            margin-left: 170px;
+        }
+        .contact{
+            margin-top: 20px;
+        }
+        #lin{
+            margin-left: 30px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+        #detail{
+            margin-left: 90px; 
+            text-decoration:none;
+            color: black;
+            font-weight: 700;
+        }
+        .address{
+            margin-left: 80px;
+            margin-top: 30px;
+            height: 300px;
+            width: 500px;
+            border: 5px groove black;
+            padding-left: 20px;
+        }
+        #add1{
+            font-size: large;
+            font-weight: 500;
+        }
+        iframe{
+            margin-left: 800px;
+            margin-top: -500px;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            margin-top: 20px;
+            width: 100%;
+            z-index: 1;
+            background-color: transparent;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: 20px;
+            position: fixed;
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <img id="img1" src="contact.jpg" height="600px" width="500px">
+    <div id="info">
+        <h1>Contact BioBiz</h1>
+        <p class="p1">BioBiz is a division of EAI (Energy Alternatives India), India’s leading market & management consulting firm for clean energy, cleantech & environmental sustainability</p>
+    </div>
+    <form action="">
+        <p id="form_input">Name</p>
+        <input type="text" name="Name" placeholder="Name" required>
+        <p id="form_input">E-Mail</p>
+        <input type="email" name="Email" placeholder="Email" required>
+        <p id="form_input">Message</p>
+        <textarea id="form_input" cols="33" rows="4" placeholder="Enter your message"></textarea><br><br>
+        <input type="button" name="submit" value="SUBMIT">
+    </form>
+    <img id="img2" src="call.png" height="50px" width="50px">
+    <img id="img3" src="mail.png" height="50px" width="50px">
+    <img id="img4" src="linkedin.jpg" height="50px" width="50px">
+    <div class="contact">
+        <a id="detail" href="tel:80157%2025600">80157 25600</a>
+        <a id="detail" href="">ask@biobiz.in</a>
+        <a id="lin" href="https://www.linkedin.com/showcase/biobizindia/">https://www.linkedin.com/showcase/biobizindia/</a>
+    </div>
+    <div class="address">
+        <h1>Address</h1>
+        <p id="add1">A5C, Anugraha Apartments</p>
+        <p id="add1">No 41, Nungambakkam High Road</p>
+        <p id="add1">Nungambakkam</p>
+        <p id="add1">Chennai – 600034, Tamil Nadu, India</p>
+        <p id="add1">Landmark : Building right next to the Taj Coromandel hotel</p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6351355999764!2d80.24455397507798!3d13.058881087264567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266665555555d%3A0x60b941627ce9307a!2sEAI!5e0!3m2!1sen!2sin!4v1734593197408!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html>

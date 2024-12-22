@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science and Technology</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        .container{
+            margin-top: 100px;
+            margin-left: 100px;
+            padding-top: 100px;
+        }
+        #para1{
+            font-size: large;
+            line-height: 40px;
+            width: 700px;
+        }
+        #img1{
+            margin-left: 900px;
+            margin-top: -400px;
+        }
+        #img2{
+            margin-top: 80px;
+            margin-left: 200px;
+        }
+        #img3{
+            margin-top: -500px;
+            margin-left: 850px;
+        }
+        table{
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 50px;
+        }
+        tr,th,td{
+            text-align: center;
+            font-size: large;
+            padding: 20px;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            margin-top: -70px;
+            width: 100%;
+            z-index: 1;
+            background-color: transparent;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: 20px;
+            position: fixed;
+            margin-left: 10px;
+            margin-top: -60px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <div class="container">
+        <h1>Bio-based Science & Technology Pathways</h1>
+        <p id="para1">As science, technology, and sustainability intersect, the world of bio-based business emerges as a field of innovation and promise. This sector utilizes cutting-edge processes and scientific pathways to transform raw materials into a diverse array of high-value products. From harnessing the power of photosynthesis in algae for biofuels to employing enzymatic processes in microorganisms for biochemicals, the bio-based business is a testament to the harmony between nature and technology. Through this fusion, we provide eco-friendly alternatives, as well as paving the way for a more sustainable and resilient future, where bio-based solutions take the lead in shaping a greener, more sustainable environment.</p>
+    </div>
+    <img id="img1" src="tech.png" height="300px" width="500px">
+    <img id="img2" src="path1.png" height="500px" width="500px">
+    <img id="img3" src="path2.png" height="500px" width="500px">
+    <div style="text-align: center;">
+        <h1>Technology Pathways for prominent bioproducts and solutions</h1>
+        <table border="2" style="text-align: center;">
+            <tr>
+                <th>Source</th>
+                <th>Technology/Procedure</th>
+                <th>Products</th>
+            </tr>
+            <tr>
+                <td>Corn, Sugarcane</td>
+                <td>Fermentation, Enzymatic Hydrolysis</td>
+                <td>Bioethanol, Biogas, Organic Acids</td>
+            </tr>
+            <tr>
+                <td>Plants oils</td>
+                <td>Enzymatic Polymerization</td>
+                <td>Biopolymers, Bioplastics</td>
+            </tr>
+            <tr>
+                <td>Ores (Copper, Gold etc)</td>
+                <td>Bioleaching</td>
+                <td>Recovery of metals</td>
+            </tr>
+            <tr>
+                <td>Organic Waste (Food waste)</td>
+                <td>Anaerobic Digestion</td>
+                <td>Biogas (Methane), Digestate (Organic Fertilizers)</td>
+            </tr>
+            <tr>
+                <td>Wastewater</td>
+                <td>Activated Sludge Treatment</td>
+                <td>Clean water, Sludge for Biogas production</td>
+            </tr>
+            <tr>
+                <td>Air (e.g., VOCs)</td>
+                <td>Biofiltration</td>
+                <td>Removal of air pollutants, Improved air quality</td>
+            </tr>
+            <tr>
+                <td>Mixed waste (e.g., Municipal Wastes)</td>
+                <td>Mechanical Sorting</td>
+                <td>Separation of Recyclables, Reduction of Contaminants</td>
+            </tr>
+            <tr>
+                <td>Crop Residues</td>
+                <td>Shredding</td>
+                <td>Biomass for Bioenergy, Bio-based Materials</td>
+            </tr>
+            <tr>
+                <td>Wood Biomass</td>
+                <td>Pulping</td>
+                <td>Pulp for Paper and Bio-based Materials</td>
+            </tr>
+            <tr>
+                <td>Oilseeds (Sunflower, Mustard etc.)</td>
+                <td>Oil Pressing</td>
+                <td>Vegetable Oils for cooking, Biodiesel production</td>
+            </tr>
+            <tr>
+                <td>Biomass-derived Syngas</td>
+                <td>Fischer-Tropsch Synthesis</td>
+                <td>Liquid Biofuels, Synthetic Fuels</td>
+            </tr>
+            <tr>
+                <td>Algae, Wet Biomass</td>
+                <td>Hydrothermal Liquefaction</td>
+                <td>Bio-oil, Biogas, solid residue</td>
+            </tr>
+            <tr>
+                <td>Wood, Crop residues</td>
+                <td>Pyrolysis, Torrefaction</td>
+                <td>Biochar, Bio-oil, Syngas for Energy production, Torrefied Biomass</td>
+            </tr>
+            <tr>
+                <td>Water Bodies, Contaminated Sites</td>
+                <td>Wetlands, Rhizofilteration, Phytoextraction, Algal Bioremediation</td>
+                <td>Water Treatment, Pollutant removals</td>
+            </tr>
+            <tr>
+                <td>Water, Nutrient Solutions</td>
+                <td>Hydroponic Solutions</td>
+                <td>Crop Cultivation, Wastewater Treatment</td>
+            </tr>
+            <tr>
+                <td>Contaminated Soils</td>
+                <td>Phytostabilization</td>
+                <td>Contaminant Immobilization, Soil Erosion Control</td>
+            </tr>
+            <tr>
+                <td>Soils, Coastal Areas</td>
+                <td>Enhanced Weathering</td>
+                <td>Carbonate Minerals, Improved Soil Fertility</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

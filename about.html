@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        body{
+            background-color: rosybrown;
+        }
+        #head1{
+            padding-top: 120px;
+        }
+        .div2{
+            height: 200px;
+            width: 300px;
+            padding-left: 250px;
+           
+        }
+        #p1{
+            line-height: 30px;
+            font-size: large;
+            text-align: justify;
+            background-color: burlywood;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid black;
+            height: 250px;
+            width: 800px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        h2{
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-top: 170px;
+        }
+        .div1{
+            padding-top: -100px;
+        }
+        #p2,#p3,#p4,#p5{
+            height: 200px;
+            width: 400px;
+            padding-left: -200px;
+            line-height: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .div3,.div5{
+            border: 2px solid black;
+            height: 250px;
+            width: 400px;
+            margin-left: 200px;
+            background-color: rgb(220, 175, 91);
+        }
+        #h1,#h2,#h3,#h4{
+            padding-left: 100px;
+        }
+        .div4,.div6{
+            border: 2px solid black;
+            height: 250px;
+            width: 400px;
+            margin-left: 900px;
+            margin-top: -250px;
+            background-color: rgb(220, 175, 91);
+        }
+        .div5{
+            margin-top: 30px;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            width: 100%;
+            z-index: 1;
+            background-color: transparent;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: 20px;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <h2 id="head1"><b>ABOUT BIOBIZ</b></h2>
+    <div class="div1">     
+        <img src="about.png" height="400px" width="100%">     
+    </div>
+    <div class="div2">
+        <p id="p1">Welcome to BioBiz, a pioneering division of Energy Alternatives India (EAI), committed to propelling India towards a sustainable future by leveraging the nation’s abundant and diverse biomass resources.At BioBiz, we envision ourselves as the driving force that unites the key stakeholders of India’s biomass ecosystem—ranging from farmers and innovators to policymakers and investors.Our mission is to foster a collaborative and innovative environment that transforms biomass potential into tangible energy solutions, ensuring sustainable growth and energy security for the nation. Join us in our endeavor to revolutionize India’s bioenergy landscape and build a greener, more sustainable tomorrow.</p>
+    </div><br><br><br><br>
+    <table>
+        <tr>
+            
+                <div class="div3">
+                    <h3 id="h1">Reports and consulting</h3>
+                    <p id="p2">In-depth analyses and tailored consulting services to help you navigate and thrive in the bioenergy sector. Our expert team provides strategic guidance, market analysis, feasibility studies, and project management services to ensure your success in the bioenergy landscape.</p>
+                </div>
+            
+            <td>
+                <div class="div4">
+                    <h3 id="h2">Current Indian News Updates</h3>
+                    <p id="p3">Stay informed with the latest happenings in biomass, bioethanol, and everything related to sustainable bio-solutions in India and beyond. Our news section offers timely updates, policy changes, and industry developments that impact the bioenergy sector.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <div class="div5">
+                <h3 id="h3">Innovation Insights</h3>
+                <p id="p4">Discover the most exciting bio-based products from around the world. Gain insights into groundbreaking innovations and explore emerging opportunities in the bioeconomy. Our focus on innovation highlights new technologies, processes, and products that can drive the future of sustainable energy.</p>
+            </div>
+            <td>
+                <div class="div6">
+                    <h3 id="h4">Opportunities</h3>
+                    <p id="p5">Uncover 20 exciting opportunities that could be the next big breakthrough in the bioenergy and bioeconomy sectors. We identify and analyze high-potential projects, investment opportunities, and emerging markets that offer significant growth prospects for stakeholders.</p>
+                </div>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>

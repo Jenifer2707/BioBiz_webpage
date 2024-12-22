@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioBiz Consulting</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        h2{
+            text-align: center;
+            font-size: xx-large;
+            padding-top: 100px;
+        }
+        h3{
+            font-size: xx-large;
+        }
+        #p1,#p2{
+            height: 200px;
+            width: 600px;
+            line-height: 30px;
+            font-size: large;
+            text-align: justify;
+        }
+        #div1,#div2{
+            height: 300px;
+            width: 600px;
+            border-bottom: 5px solid green;
+            border-right: 5px solid green;
+        }
+        #img1{
+            margin-left: 900px;
+            margin-top: -1200px;
+            border-left: 10px ridge green;
+            border-top: 10px ridge green;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        ul li{
+            font-size: xx-large;
+        }
+        .li1{
+            margin-left: 100px;
+            line-height: 50px;
+            font-family: sans-serif;
+        }
+        .li2{
+            margin-left: 150px;
+            line-height: 50px;
+            font-family: sans-serif;
+        }
+        #div3{
+            border: 10px groove rgb(174, 69, 174);
+            background-color: rgb(149, 93, 202);
+            border-radius: 5px;
+            
+        }
+        h4{
+            font-size: x-large;
+            margin-left: 100px;
+            border-left: 5px groove grey;
+            border-bottom: 5px groove grey;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            background-color: grey;
+            border-bottom-left-radius: 15px;
+            line-height: 40px;
+        }
+        h4::first-letter{
+            font-size: xx-large;
+        }
+        #para1{
+            font-size: large;
+            line-height: 40px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border-left: 5px groove rgb(220, 151, 66);
+            border-bottom: 5px groove rgb(220, 151, 66);
+            padding-left: 30px;
+            padding-bottom: 20px;
+            background-color: rgb(220, 151, 66);
+        }
+        .div4{
+            margin-top: 100px;
+        }
+        #img2{
+            margin-left: 100px;
+        }
+        #img3{
+            padding-left: 150px;
+        }
+        #img4{
+            padding-left: 200px;
+        }
+        #img5{
+            margin-left: 150px;
+        }
+        #img6{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        #div5{
+            border-top: 10px ridge black;
+            border-bottom: 10px ridge black;
+            border-left: 10px ridge black;
+        }
+        .last li{
+            font-size: large;
+            line-height: 40px;
+            margin-left: 50px;
+        }
+        #div6{
+            border: 5px solid black;
+            height: 350px;
+            width: 600px;
+            margin-left: 500px;
+            background-color: rgb(161, 227, 227);
+        }
+        .contact{
+            line-height: 40px;
+            font-size: large;
+            text-align: center;
+        }
+        .outer{
+            position: fixed;
+            margin-left: 400px;
+            width: 100%;
+            z-index: 1;
+            background-color: transparent;
+        }
+        .menu_ul{
+            list-style: none;
+        }
+        .menu_ul li{
+            display: inline-block;
+            position: relative;
+            background-color: transparent;
+        }
+        .dropdown li a{
+            padding-right: 100px;
+        }
+        .menu_ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px 25px;
+            text-align: center;
+            color: blue;
+           
+        }
+        .menu_ul li ul.dropdown li{
+            display: block;
+            background-color: skyblue;
+        }
+        .menu_ul li ul.dropdown li:hover{
+            background-color: dimgray;
+            color: black;
+        }
+        .menu_ul li ul.dropdown{
+            width: 150px;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        .menu_ul li:hover ul.dropdown{
+            display: block;
+            margin-left: -50px;
+        }
+        #logo{
+            margin-top: 20px;
+            position: fixed;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul class="menu_ul">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="update.html">India Updates</a></li>
+            <li><a href="opp.html">Opportunities</a></li>
+            <li><a href="consult.html">BioBiz Consulting</a></li>
+            <li><a href="innovation.html">Innovation Insights</a></li>
+            <li>
+                <a href="">Insights</a>
+                <ul class="dropdown">
+                    <li><a href="Bioenergy.html">Bioenergy</a></li>
+                    <li><a href="environmental.html">Environmental Solutions</a></li>
+                    <li><a href="product.html">Bio Products</a></li>
+                    <li><a href="technology.html">Bio-based Science & Tech Pathways</a></li>
+                    <li><a href="regional.html">Regional Biomass Residues</a></li>
+                    <li><a href="india.html">India Biomass Residues</a></li>
+                    <li><a href="bioeconomy.html">Indian Bioeconomy</a></li>
+                </ul>
+            </li>
+            <li><a href="bring.html">Bring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+    <img id="logo" src="biobiz.png" height="70px" width="150px">
+    <h2>BIOBIZ CONSULTING</h2>
+    <div id="div1">
+        <h3>BioBiz Consulting Value Proposition</h2>
+        <p id="p1">BioBiz, a division of EAI, offers a focused consulting offering for the top management of Indian companies keen on tapping into opportunities offered by the fast growing Indian biomass-based products, solutions and services sectors.The Research & Consulting Team at BioBiz comprises professionals from reputed institutions such as the IITs and IIMs, and who have considerable acquaintance with the Indian biomass sector.</p>
+    </div>
+           
+    <div id="div2">
+        <h3>Who can benefit from BioBiz Consulting?</h3>
+        <p id="p2">If your company is keen on having a business diversification/entry into the Indian biomass-based products market, BioBiz’s strategic assistance will be critical for your company in designing a powerful roadmap.
+        Our consulting services are a rich combination of insights and actionables, and are directed towards companies’ top management.
+        Our team’s expert assistance will be of specific value to medium and large businesses in agriculture, food & dairy, vegetable oils, plastics/rubber, chemicals & petrochemicals, paper/pulp and packaging sectors.</p>
+    </div>
+            
+    <img id="img1" src="opportunity.jpg" height="500px" width="500px">
+
+    <h2>The BioBiz team can assist you in a complete understanding and analyses for the following bio-based opportunities:</h2>
+    <div id="div3">
+        <table>
+            <tr>
+                <td>
+                    <ul class="li1" style="list-style-type: disc;">
+                        <li>Compressed Biogas (CBG)</li>
+                        <li>Biomass Gasifiers</li>
+                        <li>Biobased Crop Protection</li>
+                        <li>Biochar</li>
+                        <li>Bio-coal</li>
+                        <li>Bio-based Food Additives</li>
+                        <li>Bio-based Nutraceuticals</li>
+                        <li> Bio-based Chemicals</li>
+                        <li>Agricultural Residue Management</li>
+                        <li>Bioethanol</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="li2" style="list-style-type: disc;">
+                        <li>Bio-based Food Additives</li>
+                        <li>Biomass Pyrolysis for Oil</li>
+                        <li>Bio-based Nutraceuticals</li>
+                        <li>Precision Agriculture</li>
+                        <li>Bio-based Chemicals</li>
+                        <li>Bio-based Construction Materials</li>
+                        <li>Agricultural Residue Management</li>
+                        <li> Biomass Briquettes & Pellets</li>
+                        <li>Bioethanol</li>
+                        <li>Biodiesel</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="div4">
+        <table>
+            <tr>
+                <td><h4>Supply chain analysis</h4></td>
+                <td><p id="para1">Reliable feedstock supply is one of the critical challenges for any biomass based opportunity. BioBiz team is one of the few specialist experts in India that has done deep and comprehensive work in assessing biomass supply chains for various feedstocks, different regions, varying quantum of biomass needed, and for diverse applications.</p></td>
+            </tr>
+            <tr>
+                <td><h4>Market potential analysis</h4></td>
+                <td><p id="para1">Detailed analysis of a specific vertical within biomass on market dimensions such as Supply-demand, Market Potential, Competitors, Industry Characteristics and more…</p></td>
+            </tr>
+            <tr>
+                <td><h4>Partner identification</h4></td>
+                <td><p id="para1">JVs & Partnerships - Assistance in identifying business or technology partners for joint venture, technology licensing and more. This can be for any part of the biomass value chain.This offering will be specifically valuable for international companies.</p></td>
+            </tr>
+            <tr>
+                <td><h4>Innovation intelligence</h4></td>
+                <td><p id="para1">Identifying Opportunities around Key Innovations - Focussed research assistance that enables your company to identify attractive and innovative opportunities, as well as identifying and analyzing companies that are attractive for investments or acquisitions.</p></td>
+            </tr>
+            <tr>
+                <td><h4>Talent acquisition</h4></td>
+                <td><p id="para1">Identifying Talent - With our extensive network and connections in the Indian biomass and related sustainability sectors, we can assist in identifying top management or top technical talent (CEO, CTO, COO…) for recruitment in specialized domains within biomass</p></td>
+            </tr>
+            <tr>
+                <td><h4>Project due diligence</h4></td>
+                <td><p id="para1">Due Diligence - For companies looking at investing in / acquiring specific assets of companies in the biomass, we can provide due diligence on product/market or business. This will be done using our knowledge of the biomass business and where necessary, with assistance from our wide network of industry technical partners</p></td>
+            </tr>
+        </table>
+    </div>
+    <h2>Consulting Assistance We Have Provided Include</h2>
+    <div id="div5">
+        <table>
+            <tr>
+                <td><img id="img2" src="cons1.png" height="300px" width="300px"></td>
+                <td><img id="img3" src="cons2.png" height="100px" width="100px"></td>
+                <td><img id="img4" src="cons3.jpg" height="100px" width="100px"></td>
+                <td><img id="img3" src="cons4.jpg" height="100px" width="200px"></td>
+            </tr>
+            <tr>
+                <td><img id="img5" src="cons5.png" height="150px" width="200px"></td>
+                <td><img id="img3" src="cons6.jpg" height="200px" width="200px"></td>
+                <td><img id="img4" src="cons7.png" height="150px" width="150px"></td>
+                <td><img id="img3" src="cons8.png" height="200px" width="200px"></td>
+            </tr>
+            <tr>
+                <td><img id="img3" src="cons9.jpg" height="200px" width="200px"></td>
+                <td><img id="img3" src="cons10.png" height="200px" width="200px"></td>
+                <td><img id="img4" src="cons11.png" height="200px" width="200px"></td>
+                <td><img id="img3" src="cons12.jpg" height="200px" width="200px"></td>
+            </tr>
+        </table>
+        <img id="img6" src="cons13.png" height="150px" width="150px">
+    </div>
+    <h3 style="margin-left: 50px;">Some prominent assignments we have successfully undertaken:</h3>
+    <ul class="last">
+        <li>Comprehensive biomass supply chain analyses across 15 different Indian states that complete almost all regions within India</li>
+        <li>Detailed analysis of India’s CBG market for domestic and international investors and entrepreneurs - these studies included a significant amount of primary research where we interacted with almost every key stakeholder in the CBG value chain.</li>
+        <li>One of the few firms to have done comprehensive research and analysis of the Indian bioplastics sector. We have also published a report based on our work, which is available on request.</li>
+        <li>One of the few firms that has worked on assignments related to biomass for hydrogen production.</li>
+    </ul>
+    <div id="div6">
+        <h3 style="text-align: center;">Wish to know more about BioBiz Consulting?</h3>
+        <p class="contact">Talk to Muthu at +91 9952910083 or send an email to ask@biobiz.in</p>
+        <p class="contact">More about BioBiz - from www.biobiz.in</p>
+        <p class="contact">BioBiz Consulting is part of <b>EAI</b>, India’s leading climate tech management consulting firm.</p>
+    </div>
+    
+</body>
+</html>
